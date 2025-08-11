@@ -16,7 +16,7 @@ python-multipart==0.0.20
 python-dotenv>=0.19.0
 
 # Caching
-redis==5.2.*
+redis==6.4.*
 
 # Monitoring
 opencensus-ext-stackdriver==0.8.0
