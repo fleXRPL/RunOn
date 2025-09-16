@@ -23,7 +23,7 @@ jobs:
       DERIVED_DATA_PATH: "DerivedData"
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
     
     - name: Set up Xcode
       uses: maxim-lobanov/setup-xcode@v1
