@@ -6,7 +6,7 @@ authors = ["Your Name <your.email@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-fastapi = "^0.116.1"
+fastapi = "^0.118.0"
 pydantic = "^2.10.5"
 google-cloud-firestore = "^2.3.4"
 google-cloud-functions = "^1.4.0"
@@ -15,7 +15,7 @@ python-jose = {extras = ["cryptography"], version = "^3.3.0"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^8.3.4"
-pytest-cov = "^6.0.0"
+pytest-cov = "^7.0.0"
 isort = "^6.0.1"
 black = "^25.1"
 flake8 = "^7.1.1"
