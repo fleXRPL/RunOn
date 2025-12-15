@@ -54,7 +54,7 @@ jobs:
         fetch-depth: 0
         
     - name: Download coverage report
-      uses: actions/download-artifact@v6
+      uses: actions/download-artifact@v7
       with:
         name: coverage-report
         path: backend
